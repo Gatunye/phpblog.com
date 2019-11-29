@@ -1,9 +1,9 @@
 <?php
-require './hooks/dbinsert.hook.php';
+// require './hooks/dbinsert.hook.php';
 function dbdelete($conn){
 $table= "";
 $where = "";
-$i=0;
+$i="";
 $sql = 'DELETE FROM ' .$table.'WHERE'.$where=$i;
 
     if (mysqli_query($conn, $sql) === TRUE) {
