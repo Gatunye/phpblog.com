@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="<?= CSS_URL . '/reset.css' ?>">
     <link rel="stylesheet" href="<?= CSS_URL . '/style.css' ?>">
+    <link rel="stylesheet" href="<?= CSS_URL . '/register _form.css' ?>">
     <title>Document</title>
 </head>
-
 <body>
-    

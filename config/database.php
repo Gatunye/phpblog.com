@@ -1,8 +1,9 @@
 <?php
 
-$db_conf =  [
-    "db_name" => "myblog",
-    "db_password" => "mypwd"
-];
+$db_config =  [
+    "host"     => 'localhost',
+    "username" => 'root',
+    "password" => '',
+    "database" => 'phpblog',
 
-?>
+];
