@@ -28,10 +28,10 @@ function dbInsert(
         $i++;
         if ($i  == $v_count) {
             $fields .= "$field";
-            $values .= "`$value`";
+            $values .= "'$value'";
         } else {
             $fields .= "$field,";
-            $values .= "`$value`,";
+            $values .= "'$value',";
         }
     }
     $sql = 'INSERT INTO ' .

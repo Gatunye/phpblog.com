@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Undocumented function
+ * dbConn function for database conncetion 
  *
  * @param string $host
  * @param string $user
